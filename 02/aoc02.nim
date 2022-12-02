@@ -82,5 +82,7 @@ proc main(): void =
         
     echo main_score
 
+    f.close()
+
 when isMainModule:
     main()
